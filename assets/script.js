@@ -1,11 +1,11 @@
 var name = "Jonah"; //string
 var age = 10; //number
 var isGoodBoy = true; //boolean
-var friends = ["Cody", "Cooter", "Oliver"];
+var friends = ["Cody", "Cooter", "Oliver"];//array
 
 console.log(friends[1]); //use bracket notation to reference a specific index in the array
 
-var jonahObj = {
+var jonahObj = { //object
     name: "Jonah",
     age: 10,
     isGoodPet: true,
@@ -13,9 +13,9 @@ var jonahObj = {
 }
 
 console.log(jonahObj.age); //use dot notation to reference a specific key value pair
-console.log(jonahObj.friends[2]);
+console.log(jonahObj.friends[2]);//you can use a combination of dot notation and bracket notation to access an array element inside of an object
 
-var petsArray = [
+var petsArray = [ //array of objects
     {
         name: "Jonah",
         age: 10,
@@ -55,7 +55,7 @@ var petsArray = [
 ]
 
 
-for (var i = 0; i < petsArray.length; i++ ) {
+for (var i = 0; i < petsArray.length; i++ ) { //for loop - loops through the array and executes the function as long as the condition (i < petsArray.length) is met 
     if (petsArray[i].isGoodPet === true){
         console.log(petsArray[i].name)
     } else {
@@ -63,7 +63,7 @@ for (var i = 0; i < petsArray.length; i++ ) {
     }
 }
 
-petsArray.forEach(function(pet) {
+petsArray.forEach(function(pet) { //for each loop = loops through the array and executes the function for each item in the array
     if (!pet.isGoodPet){
         console.log(pet.name)
     }
