@@ -3,8 +3,6 @@
 - Using loops and conditional (if/else) statements
 - Using objects
 - Declaring and using functions
-- Traversing the DOM/Creating HTML via JS
-- Click and other events/Preventing default event
-- Using a variable and button to help go through an array (not a loop!) 
-- Timers
-- Local storage in JS
+- Traversing the DOM/Modifying HTML via JS
+- Using click events
+- Using an index variable and button to help go through an array (not a loop!) 
