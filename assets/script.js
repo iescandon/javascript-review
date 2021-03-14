@@ -56,7 +56,6 @@ var petsArray = [
 
 
 for (var i = 0; i < petsArray.length; i++ ) {
-// console.log(petsArray[i].name);
     if (petsArray[i].isGoodPet === true){
         console.log(petsArray[i].name)
     } else {
