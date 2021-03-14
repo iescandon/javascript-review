@@ -1,7 +1,7 @@
 # Javascript Review
 - Using variables/knowing different types
-- Using loops and conditional (if/else) statements
 - Using objects
+- Using loops and conditional (if/else) statements
 - Declaring and using functions
 - Traversing the DOM/Adding HTML via JS
 - Using click events
