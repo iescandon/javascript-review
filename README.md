@@ -1,4 +1,4 @@
-# javascript-review
+# Javascript Review
 - Using variables/knowing different types
 - Using loops and conditional (if/else) statements
 - Using objects
