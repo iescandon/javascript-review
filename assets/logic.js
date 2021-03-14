@@ -16,10 +16,10 @@ function createCard() {
     emailEl.textContent = employees[i].email;
     phoneEl.textContent = employees[i].phone;
     if (employees[i].gender === "female") {
-        // cardEl.setAttribute("style", "width: 18rem; background-color: pink;")
-        // cardEl.setAttribute("class", "card girl") //replaces the entire class with what is in the second parameter
-        cardEl.classList.remove("boy") //need to remove before you add the new one
-        cardEl.classList.add("girl")
+        // cardEl.setAttribute("style", "width: 18rem; background-color: pink;") //adds style attribute of width and background color
+        // cardEl.setAttribute("class", "card girl") //replaces the entire class with what is in the second parameter, any class that was listed before will be erased unless added here
+        cardEl.classList.remove("boy") //removes the boy class (defined in CSS), will only remove specific class listed
+        cardEl.classList.add("girl") //adds the girl class (defined in CSS), will not replace all classes currently in the class list
     } else {
         // cardEl.setAttribute("style", "width: 18rem; background-color: lightblue;")
         // cardEl.setAttribute("class", "card boy")
@@ -28,6 +28,7 @@ function createCard() {
     }
 }
 
+// goes to the next card
 function goNextCard() {
     if(i < employees.length - 1){ //if the index exists in the array...
         i++; //add one to the index variable

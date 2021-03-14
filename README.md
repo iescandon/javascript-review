@@ -3,6 +3,6 @@
 - Using loops and conditional (if/else) statements
 - Using objects
 - Declaring and using functions
-- Traversing the DOM/Modifying HTML via JS
+- Traversing the DOM/Adding HTML via JS
 - Using click events
 - Using an index variable and button to help go through an array (not a loop!) 
