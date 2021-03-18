@@ -6,7 +6,7 @@ var emailEl = document.getElementById("email");
 var phoneEl = document.getElementById("phone");
 var nextBtn = document.getElementById("next");
 var cardEl = document.getElementById("card");
-var i = 0; //keeps track of the current index in the array that we are on, we set it to start at 0 (first item in the array)
+var i = 1; //keeps track of the current index in the array that we are on, we set it to start at 0 (first item in the array)
 
 //fills in card information
 function createCard() {
