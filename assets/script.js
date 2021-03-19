@@ -55,7 +55,7 @@ var petsArray = [ //array of objects
 ]
 
 
-for (var i = 0; i < petsArray.length; i++ ) { //for loop - loops through the array and executes the function as long as the condition (i < petsArray.length) is met 
+for (var i = 0; i < petsArray.length; i++) { //for loop - loops through the array and executes the function as long as the condition (i < petsArray.length) is met 
     if (petsArray[i].isGoodPet === true){ //if isGoodPet is true...
         console.log(petsArray[i].name)
     } else { //if isGoodPet is false...
